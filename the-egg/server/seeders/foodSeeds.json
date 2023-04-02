@@ -1,0 +1,250 @@
+[
+  {
+    "name": "American Cheese",
+    "category": "omelettes",
+    "price": "9.95"
+  },
+  {
+    "name": "4 Veggie & American Cheese",
+    "description": "with tomatoes, onions, green peppers & mushrooms",
+    "category": "omelettes",
+    "price": "10.95"
+  },
+  {
+    "name": "Ham & American Cheese",
+    "category": "omelettes",
+    "price": "10.95"
+  },
+  {
+    "name": "Spinach",
+    "description": "With lightly sauteed and seasoned spinach with mixed cheeses",
+    "category": "omelettes",
+    "price": "9.95"
+  },
+  {
+    "name": "Southern",
+    "description": "With sausage, onions, peppers and American cheese",
+    "category": "omelettes",
+    "price": "10.95"
+  },
+  {
+    "name": "Mexican",
+    "description": "with tomatoes, onions, green peppers, green onions, salsa, mixed cheeses and sour cream",
+    "category": "omelettes",
+    "price": "9.25"
+  },
+  {
+    "name": "Mixed Grill",
+    "description": "With ham, bacon, sausage, and American cheese",
+    "category": "omelettes",
+    "price": "11.50"
+  },
+
+
+  {
+    "name": "Full Stack: 3 Pancakes",
+    "description": "With ham, bacon or sausage 10.25 Add chocolate chips with powdered sugar and whipped cream, fresh apples topped with cinnamon, pecans or fresh blueberries 1.25 extra",
+    "category": "flatTop",
+    "price": "9.25"
+  },
+  {
+    "name": "Short Stack: 2 Pancakes",
+    "description": "With ham, bacon or sausage 7.25 Add chocolate chips with powdered sugar and whipped cream, fresh apples topped with cinnamon, pecans or fresh blueberries .85 extra",
+    "category": "flatTop",
+    "price": "6.95"
+  },
+  {
+    "name": "Cakes and Eggs",
+    "description": "Three pancakes served with two eggs any style with ham, bacon or sausage. Add chocolate chips with powdered sugar and whipped cream, fresh apples topped with cinnamon, pecans or fresh blueberries 1.25 extra",
+    "category": "flatTop",
+    "price": "12.95"
+  },
+  {
+    "name": "2-2-2",
+    "description": "Two eggs, two pieces of bacon and two pancakes Substitute French toast 8.15 Substitute two patties, two links or ham .50 extra or country ham/ livermush 1.50 extra",
+    "category": "flatTop",
+    "price": "9.95"
+  },
+  {
+    "name": "Ham & Cheese Scramble",
+    "description": "Two eggs mixed with diced ham and covered with American cheese and served with two buttermilk pancakes",
+    "category": "flatTop",
+    "price": "9.95"
+  },{
+    "name": "Belgian Waffle",
+    "description": "Sprinkled with powdered sugar. Served with ham, bacon or sausage 7.95 ",
+    "category": "flatTop",
+    "price": "7.00"
+  },{
+    "name": "Pecan Waffle",
+    "description": "Served with ham, bacon or sausage 9.50",
+    "category": "flatTop",
+    "price": "7.50"
+  },{
+    "name": "French Toast",
+    "description": "Sprinkled with powdered sugar and your choice of fresh deli bread. Cinnamon raisin. 25 extra. Served with ham, bacon or sausage 9.50",
+    "category": "flatTop",
+    "price": "8.50"
+  },{
+    "name": "Chicken and Waffle",
+    "description": "Belgian waffle with crispy chicken tenders on top",
+    "category": "flatTop",
+    "price": "12.00"
+  },{
+    "name": "Specialty Waffles",
+    "description": "Choose one...Maple Walnut, Nutella and Banana, Cinnamon roll, Peanut butter and bacon, Dbl chocolate or Seasonal fruit",
+    "category": "flatTop",
+    "price": "10.00"
+  },
+  
+  
+  {
+    "name": "1 Egg",
+    "category": "eggs",
+    "price": "4.50"
+  },{
+    "name": "1 Egg with Ham, Bacon or Sausage",
+    "description": "Substitute Country ham / Livermush / Turkey sausage 1.50 extra",
+    "category": "eggs",
+    "price": "6.95"
+  },{
+    "name": "2 Eggs",
+    "category": "eggs",
+    "price": "5.25"
+  },{
+    "name": "2 Eggs with Ham, Bacon or Sausage",
+    "description": "Substitute Country ham / Livermush / Turkey sausage 1.50 extra",
+    "category": "eggs",
+    "price": "7.95"
+  },{
+    "name": "2 Eggs Scrambled with your choice of Chopped Ham, Bacon or Sausage Topped with American Cheese",
+    "category": "eggs",
+    "price": "7.95"
+  },{
+    "name": "Junkyard",
+    "description": "Your choice of ingredients. Three scrambled eggs and cheese mixed all together. Served with your choice of toast. Substitute an English muffin .25 extra. Ingredients: bacon, ham, sausage, gravy, peppers, mushrooms, onions, tomatoes, jalepenos or salsa.",
+    "category": "eggs",
+    "price": "10.50"
+  },
+  
+  
+  
+  {
+    "name": "Eggwhich: Egg any style on your choice of bread",
+    "category": "eggceptional",
+    "price": "4.50"
+  },{
+    "name": "With Cheese",
+    "category": "eggceptional",
+    "price": "5.00"
+  },{
+    "name": "With Bacon, Ham or Sausage",
+    "category": "eggceptional",
+    "price": "5.50"
+  },{
+    "name": "With Bacon, Ham or Sausage and Cheese",
+    "category": "eggceptional",
+    "price": "5.75"
+  },{
+    "name": "Sausage Patty Melt",
+    "description": "With egg, onions, American cheese and 1000 Island dressing on grilled rye bread",
+    "category": "eggceptional",
+    "price": "6.95"
+  },
+  {
+    "name": "Stuffin Muffin",
+    "description": "One egg on a Thomas English muffin with grilled ham and melted cheese",
+    "category": "eggceptional",
+    "price": "5.50"
+  },
+  {
+    "name": "Western Sandwich",
+    "description": "Like the omelette(egg mixed with ham, onions and peppers) with melted American cheese on a Kaiser roll",
+    "category": "eggceptional",
+    "price": "6.95"
+  },
+  {
+    "name": "Breakfast Burrito",
+    "description": "Choice of three ingredients with two eggs scrambled and melted cheese, rolled in a  flour tortilla with your choice of side. Ingredients: bacon, ham, sausage, gravy, peppers, mushrooms, onions, tomatoes, jalepenos or",
+    "category": "eggceptional",
+    "price": "9.95"
+  },
+
+
+  {
+    "name": "Sunrise Special",
+    "description": "2 eggs any style, biscuit and homemade sausage gravy, with ham, bacon or sausage and your choice of side",
+    "category": "houseSpecial",
+    "price": "9.95"
+  },
+  {
+    "name": "Biscuits and Gravy with 1 Side",
+    "description": "* With 2 eggs on top 8.25 * With 2 eggs and meat 9.50",
+    "category": "houseSpecial",
+    "price": "6.95"
+  },
+  {
+    "name": "Corned Beef Hash and Eggs",
+    "description": "Made in house. Corned beef topped with 2 eggs with 1 side and toast",
+    "category": "houseSpecial",
+    "price": "9.95"
+  },
+  {
+    "name": "Country Fried Steak",
+    "description": "served with sausage gravy, 2 eggs, 1 side and toast",
+    "category": "houseSpecial",
+    "price": "11.95"
+  },
+  {
+    "name": "Steak and Eggs",
+    "description": "7oz steak served with 2 eggs, 1 side and toast",
+    "category": "houseSpecial",
+    "price": "13.95"
+  },
+
+
+
+  {
+    "name": "Eggs Benedict",
+    "description": "Grilled English muffin with smoked ham, two poached eggs and our famous Hollandaise sauce",
+    "category": "benedict",
+    "price": "11.95"
+  },
+  {
+    "name": "Tomato Bene",
+    "description": "Grilled English muffin, tomato slices, two poached eggs and our famous Hollandaise sauce",
+    "category": "benedict",
+    "price": "11.95"
+  },
+  {
+    "name": "Eggs Benedict Florentine",
+    "description": "Grilled English muffin with lightly sauteed spinach, two poached eggs and our famous Hollandaise sauce",
+    "category": "benedict",
+    "price": "11.95"
+  },
+  {
+    "name": "Tennessee Bene",
+    "description": "Grilled English Muffin topped with sausage patties, two poached eggs and homemade gravy",
+    "category": "benedict",
+    "price": "12.95"
+  },
+  {
+    "name": "Crabmeat Benedict",
+    "description": "Grilled English muffin, crabmeat, two poached eggs and our famous Hallandaise sauce",
+    "category": "benedict",
+    "price": "12.50"
+  },
+  {
+    "name": "Hawaiian Bene",
+    "description": "Grilled English muffin with smoked ham, grilled pineapple, two poached eggs and our famous Hollandaise sauce",
+    "category": "benedict",
+    "price": "12.50"
+  },
+  {
+    "name": "Fiesta Bene",
+    "description": "Spicy chorizo sausage, onions, green bell peppers, green onions, diced tomatoes and two poached eggs on a crispy corn tortilla topped with our famous Hollandaise sauce",
+    "category": "benedict",
+    "price": "12.50"
+  }
+
+]
