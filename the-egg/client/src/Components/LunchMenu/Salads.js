@@ -1,15 +1,15 @@
 import { useQuery } from '@apollo/client';
 import { QUERY_FOOD } from '../../utils/queries';
 
-function FlatTop() {
+function Salads() {
   const { loading, error, data } = useQuery(QUERY_FOOD, {
-    variables: { category: "flatTop" } 
+    variables: { category: "salads" } 
   });
 
 
   return (
     <div className="menu-category">
-     <h2>Flat Top</h2>
+      <h2>Salads</h2>
       <ul>
       {data?.foodItems && data.foodItems.map((foodItem) => (
   <li key={foodItem._id}>
@@ -24,4 +24,4 @@ function FlatTop() {
   );
 }
 
-export default FlatTop;
+export default Salads;

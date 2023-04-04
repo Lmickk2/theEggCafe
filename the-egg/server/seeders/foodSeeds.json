@@ -245,6 +245,136 @@
     "description": "Spicy chorizo sausage, onions, green bell peppers, green onions, diced tomatoes and two poached eggs on a crispy corn tortilla topped with our famous Hollandaise sauce",
     "category": "benedict",
     "price": "12.50"
-  }
+  },
 
+  {
+    "name": "Chicken Salad",
+    "category": "sandwiches",
+    "price": "7.50"
+  },
+  {
+    "name": "Tuna Salad",
+    "category": "sandwiches",
+    "price": "7.50"
+  },
+  {
+    "name": "Egg Salad",
+    "category": "sandwiches",
+    "price": "6.95"
+  },
+  {
+    "name": "Toasted BLT",
+    "category": "sandwiches",
+    "price": "6.95"
+  },
+  {
+    "name": "Turkey Club",
+    "category": "sandwiches",
+    "price": "8.50"
+  },
+  {
+    "name": "Chicken Caesar Wrap",
+    "description":"Romaine lettuce, grilled chicken breat and tomatoes tossed with caesar dressing and served in a 10' tortilla",
+    "category": "sandwiches",
+    "price": "8.95"
+  },
+  {
+    "name": "Hamburger",
+    "category": "burgers",
+    "price": "7.95"
+  },
+  {
+    "name": "Cheddar Burger",
+    "category": "burgers",
+    "price": "8.95"
+  },
+  {
+    "name": "Bacon Cheddar Burger",
+    "category": "burgers",
+    "price": "9.50"
+  },
+  {
+    "name": "Chicken Philly",
+    "description":"Chicken Breast with Peppers, Onions and Swiss Cheese. Add Chicken 2.00",
+    "category": "burgers",
+    "price": "6.95"
+  },
+  {
+    "name": "Cheese Quesadilla",
+    "description":"Grilled flour tortilla with melted monterey and cheddar cheese, tomatoes and green onions. Add Chicken 2.00",
+    "category": "burgers",
+    "price": "6.95"
+  },
+  {
+    "name": "Patty Melt",
+    "description":"8 oz. burger cooked to your liking and layered with diced onions, 1000 Island dressing, American cheese and served on grilled deli Rye bread.",
+    "category": "melts",
+    "price": "8.95"
+  },
+  {
+    "name": "Chicken Melt Club",
+    "description":"5 oz. grilled chicken breast with bacon, lettuce, tomatoes, mayo and melted cheddar on a grilled kaiser roll",
+    "category": "melts",
+    "price": "8.95"
+  },
+  {
+    "name": "Cajun Chicken Melt",
+    "description":"5 oz. grilled chicken breast with Cajun spices, melted Swiss and cheddar cheese. Topped with salsa, lettuce and tomatoes on a grilled kaiser roll",
+    "category": "melts",
+    "price": "8.95"
+  },
+  {
+    "name": "Turkey Melt",
+    "description":"4 oz. of roasted turkey, lightly grilled and layered with Swiss and cheddar cheese, lettuce and tomatoes. Served on your choice of grilled deli bread",
+    "category": "melts",
+    "price": "8.50"
+  },
+  {
+    "name": "Egg Salad Melt",
+    "description":"4 oz. of homemade egg salad layered with two strips of bacon, tomatoes, Swiss and cheddar cheese. Served on your choice of grilled deli bread. Ask for a bib with this one!",
+    "category": "melts",
+    "price": "7.50"
+  },
+  {
+    "name": "Reuben",
+    "description":"4 oz. of lean, premium, lightly grilled corned beef layered with kraut, 1000 Island dressing, Swiss cheese and served on grilled deli Rye bread",
+    "category": "melts",
+    "price": "8.50"
+  },
+  {
+    "name": "Turkey Reuben",
+    "description":"4 oz. of lightly grilled roasted turkey, layered with kraut, 1000 Island dressing, Swiss cheese and served on grilled deli Rye bread ",
+    "category": "melts",
+    "price": "8.50"
+  },
+  {
+    "name": "Grilled Cheese",
+    "description":"Three slices of American cheese served on your choice of grilled deli bread",
+    "category": "melts",
+    "price": "4.95"
+  },
+  {
+    "name": "Grilled Cheese Bacon and Tomato",
+    "description":"Three slices of American cheese, two strips of bacon and freshly sliced tomatoes served on your choice of grilled deli bread",
+    "category": "melts",
+    "price": "6.95"
+  },
+  {
+    "name": "Chef Salad",
+    "description":"Generous bed of Iceberg lettuce, diced tomatoes, cucumbers, green peppers, shredded carrots, hard boiled egg, ham, turkey, bacon bits and mixed cheese. served with a grilled dinner roll",
+    "category": "salads",
+    "price": "9.50"
+  },
+  {
+    "name": "Grilled Cajun Chicken Salad",
+    "description":"A generous bed of Iceberg lettuce, diced tomatoes, cucumbers, green peppers, shredded carrots and a sliced hard boiled egg topped with a sliced 5 oz. grilled chicken breast seasoned with Cajun spices and mixed cheeses. Served with a grilled dinner roll",
+    "category": "salads",
+    "price": "9.50"
+  },
+  {
+    "name": "Chicken, Tuna or Egg Salad Plate",
+    "description":"A scoop of your choice, served with tomato slices, cucumber slices, carrots and a hard boiled egg.",
+    "category": "salads",
+    "price": "7.50"
+  }
 ]

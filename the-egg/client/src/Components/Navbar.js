@@ -1,31 +1,28 @@
 import logo from "../images/logo.png";
-import { useState } from "react";
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
-  const handleToggle = () => {
-    setIsExpanded(!isExpanded);
-  };
+  function toggleMenu() {
+    setShowMenu(!showMenu);
+  }
 
   return (
-    <nav>
-      <div className="top-bar topbar-center-logo" id="topbar-center-logo">
-        <div className="top-bar-left">
-          <ul className={`menu vertical medium-horizontal ${isExpanded ? "expanded" : ""}`}>
-            <li><a href="/menu">Menu</a></li>
-            <li><a href="/locations">Locations</a></li>
-            <li><a href="contact">Contact</a></li>
-          </ul>
-        </div>
-        <div className="top-bar-center">
-          <a href="/"><img src={logo} className="eggLogo" alt="" /></a>
-        </div>
-        <button className="menu-icon" type="button" onClick={handleToggle}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+    <nav className="navbar">
+      <div className="logo-container">
+        <Link to ="/"><img src={logo} alt="Logo" className="logo" /></Link>
+      </div>
+      <ul className={`links ${showMenu ? 'show' : ''}`}>
+        <li><a href="/menu">Menu</a></li>
+        <li><a href="/locations">Locations</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <div className="hamburger" onClick={toggleMenu}>
+        <div className={`bar ${showMenu ? 'change' : ''}`}></div>
+        <div className={`bar ${showMenu ? 'change' : ''}`}></div>
+        <div className={`bar ${showMenu ? 'change' : ''}`}></div>
       </div>
     </nav>
   );
