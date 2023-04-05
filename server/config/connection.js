@@ -1,11 +1,8 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/theEggCafe',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+const connection = "mongodb+srv://lukemickan21:DKaXXjVmymncETLe@theeggcluster.l1cc94l.mongodb.net/?retryWrites=true&w=majority";
+mongoose.connect(connection,{ useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false})
+    .then(() => console.log("Database Connected Successfully"))
+    .catch(err => console.log(err));
 
 module.exports = mongoose.connection;
