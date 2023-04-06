@@ -60,6 +60,7 @@ function Contact() {
       </label>
       <button type="submit">Submit</button>
     </form>
+    <div className="cont-space"></div>
     </>
   );
 }
