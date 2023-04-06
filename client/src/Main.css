@@ -140,10 +140,15 @@ body {
     text-align: center;
     font-size: 65px !important;
     width: 100%;
-    top: 45% !important;
   }
   .desc {
     font-size: 16px;
+  }
+  .view-menu {
+    border-color: #3e4095 !important;
+    color: white !important;
+    background-color: #3e4095;
+    font-size: 16px !important;
   }
 }
 
