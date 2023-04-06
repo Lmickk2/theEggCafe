@@ -1,6 +1,7 @@
 {
   "name": "the-egg",
   "version": "1.0.0",
+  "homepage": "https://fierce-depths-84131.herokuapp.com/",
   "description": "",
   "main": "server/server.js",
   "scripts": {
