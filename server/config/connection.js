@@ -1,10 +1,12 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb+srv://lukemickan21:DKaXXjVmymncETLe@theeggcluster.l1cc94l.mongodb.net/?retryWrites=true&w=majority',
+  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/theEggCafe',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
   }
 );
 
