@@ -20,7 +20,7 @@ body {
   }  
 
 .cont-space {
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 
@@ -261,6 +261,13 @@ body {
 @media screen and (max-width: 900px) {
     .contact-us-section {
         display:block !important;
+        margin-bottom: 25px;
+    }
+    .map {
+      max-width: 300px !important;
+    }
+    .form {
+      margin: 20px;
     }
 }
 
@@ -454,11 +461,15 @@ h4 {
   border-top: 3px solid #3e4095;
   margin: auto;
   display: block;
-  width: 75%;
   margin-bottom: 2rem;
 }
 
 /* CONTACT */
+
+.center-white {
+  text-align: center;
+  color: white;
+}
 
 form {
   transform: translateY(20%);
@@ -468,11 +479,13 @@ form {
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
+  background-color: #3e4095;
   border-radius: 10px;
 }
 
 label {
   font-weight: bold;
+  color: white;
 }
 
 input,

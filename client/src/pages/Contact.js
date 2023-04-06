@@ -24,7 +24,9 @@ function Contact() {
   }
 
   return (
+    <>
     <form onSubmit={handleSubmit}>
+      <h3 className="center-white">Contact Us</h3>
       <label>
         Name:
         <input
@@ -58,6 +60,7 @@ function Contact() {
       </label>
       <button type="submit">Submit</button>
     </form>
+    </>
   );
 }
 

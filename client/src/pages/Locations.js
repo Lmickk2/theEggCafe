@@ -26,6 +26,7 @@ function Locations() {
                 style={{ border: 0 }}
                 allowfullscreen=""
                 loading="lazy"
+                className="map"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
               <li className="address">
@@ -59,6 +60,7 @@ function Locations() {
                   style={{ border: 0 }}
                   allowfullscreen=""
                   loading="lazy"
+                  className="map"
                   referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
                 <li className="address">
@@ -77,6 +79,7 @@ function Locations() {
           </div>
         </div>
       </section>
+      <div className="cont-space"></div>
     </div>
   );
 }
