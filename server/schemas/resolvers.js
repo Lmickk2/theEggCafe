@@ -2,10 +2,10 @@ const { Food } = require('../models');
 
 const resolvers = {
   Query: {
-    foodItems: async (_, { category }) => {
+    foods: async (_, { category }) => {
       const query = category ? { category } : {};
-      const foodItems = await Food.find(query);
-      return foodItems || [];
+      const foods = await Food.find(query);
+      return foods || [];
     }
   },
   Mutation: {

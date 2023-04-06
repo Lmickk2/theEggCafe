@@ -1,8 +1,8 @@
 import { gql } from '@apollo/client';
 
 export const QUERY_FOOD = gql`
-  query FoodItems($category: String!) { 
-    foodItems(category: $category) {
+  query foods($category: String!) { 
+    foods(category: $category) {
       _id
       category
       description

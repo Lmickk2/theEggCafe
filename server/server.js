@@ -21,10 +21,10 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-app.get('/foodItems', (req, res) => {
+app.get('/foods', (req, res) => {
   Food.find()
-    .then(foodItems => {
-      res.json(foodItems);
+    .then(foods => {
+      res.json(foods);
     })
     .catch(err => {
       console.log(err);

@@ -10,7 +10,7 @@ type FoodItem {
 }
 
 type Query {
-  foodItems(category: String): [FoodItem]
+  foods(category: String): [FoodItem]
 }
 
 type Mutation {
