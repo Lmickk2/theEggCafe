@@ -4,6 +4,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+@font-face {
+  font-family: Fira Sans Condensed;
+  src: url("./fonts/Fontspring-DEMO-oddval-bold-BF640a8b02262ad.otf");
+}
+
+
 @media (max-width: 767px) {
     .top-bar .menu {
       display: none;
@@ -300,6 +306,7 @@ body {
     .form {
       margin: 40px;
       margin-bottom: 20px;
+      transform: inherit !important;
     }
 }
 
