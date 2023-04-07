@@ -5,7 +5,7 @@ function Footer() {
     <div>
     <footer className="social-footer">
     <div className="social-footer-left">
-      <a href="#" className="logo">The Egg Cafe</a>
+      <a href="#" className="footerlogo">The Egg Cafe</a>
     </div>
     <div className="social-footer-icons">
       <ul className="menu simple">
