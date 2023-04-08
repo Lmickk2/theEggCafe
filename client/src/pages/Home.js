@@ -14,6 +14,10 @@ import foodItem9 from "../images/eggFoodItem9.png"
 import foodItem10 from "../images/eggFoodItem10.png"
 import foodItem11 from "../images/eggFoodItem11.png"
 import foodItem12 from "../images/eggFoodItem12.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMapMarkerAlt
+} from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -36,6 +40,7 @@ function Home() {
 
   return (
     <div>
+      <div className="banner"><Link to="/locations">View Hours and Locations </Link> <FontAwesomeIcon icon={faMapMarkerAlt} /></div>
       <div className="img-display">
         <img src={images[currentImage]} className="showcase" />
         {/* <button onClick={prevImage}>Previous</button>
